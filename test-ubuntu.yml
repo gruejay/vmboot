@@ -1,0 +1,9 @@
+- name: Testing Ansible pull 
+  hosts: local
+
+  tasks:
+    - name: install emacs
+      package:
+        name: emacs
+        state: present
+
