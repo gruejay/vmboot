@@ -1,0 +1,10 @@
+- name: Testing Ansible pull 
+  hosts: local
+  become: true
+
+  tasks:
+    - name: install neofetch 
+      package:
+        name: neofetch
+        state: present
+
