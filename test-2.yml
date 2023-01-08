@@ -1,4 +1,4 @@
-- name: Testing Ansible pull 
+- name: Install kubernetes worker nodes 
   hosts: local
   become: true
 
