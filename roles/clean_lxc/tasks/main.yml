@@ -1,0 +1,5 @@
+- name: Delete root keys
+  file:
+    path: /root/.ssh/auhtorized_keys
+    state: absent
+

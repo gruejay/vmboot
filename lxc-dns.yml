@@ -1,0 +1,7 @@
+- name: Install DNS pre-reqs
+  hosts: local
+  become: true
+
+  roles:
+    - role: clean_lxc
+    - role: dns
